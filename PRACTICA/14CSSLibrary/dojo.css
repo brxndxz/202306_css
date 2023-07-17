@@ -1,0 +1,110 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(Roboto-Regular.ttf);
+}
+body { 
+  font-family: "Roboto"}
+    
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  border: black 6px double; 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+}
+.btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #66278a;
+  color: #fff;
+  border: 1px solid #66278a;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}     
+.btn:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px #66278a;
+  transition: all 0.2s ease;
+}
+.row{
+  display: flex;
+  margin-top: 30px;
+}
+.col{
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}
+.nav{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(52, 59, 57);
+}
+h1{
+  margin-left: 20px;
+  color: white;
+}
+ul{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+li{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.btn-salir{
+  background-color: rgb(31, 128, 167);
+  height: 30px;
+  width: 100px;
+  box-shadow: 5px 3px black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.btn-salir:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(31, 128, 167);
+  transition: all 0.2s ease;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+#div1{
+  background-color: plum;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}

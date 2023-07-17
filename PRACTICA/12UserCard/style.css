@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Regular.ttf);
+}
+body{
+    font-family: "Roboto";
+}
+.container{
+    width: 600px;
+    height: 300px;
+    border: solid 2px grey;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+.barra{
+    background-color: rgb(83, 187, 212);
+    height: 70px;
+}
+#user{
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#icono{
+    height: 10px;
+    margin-right: 10px;
+}
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h2{
+    margin-left: 20px;
+}
