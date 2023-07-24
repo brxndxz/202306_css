@@ -1,0 +1,12 @@
+Para hacer el push por primera vez:
+git init 
+git add . 
+git commit -m "mensaje"
+git remote add origin https://github.com/nombre_de_github/nombre_del_repositorio.git
+git branch -M main
+git push -u origin main
+
+Para actualizar:
+git add . 
+git commit -m "mensaje"
+git push
